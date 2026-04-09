@@ -1,1 +1,1 @@
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL!;
+export const API_BASE_URL = "https://smartclass-backend-16-hmdsasf8efajgbef.centralindia-01.azurewebsites.net";
