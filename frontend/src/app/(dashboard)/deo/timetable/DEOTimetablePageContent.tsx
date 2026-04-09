@@ -16,7 +16,7 @@ import { AllTimetablesView } from "@/components/AllTimetablesView";
 
 const DAYS = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
-export default function DEOTimetablePage() {
+export default function DEOTimetablePageContent() {
     const searchParams = useSearchParams();
     const isEditMode = searchParams.get("edit") === "true";
     const showViewTab = searchParams.get("view") === "true";
